@@ -1,0 +1,41 @@
+.task {
+  display: flex;
+  justify-content: center;
+  max-width: 400px;
+  align-items: center;
+  margin: 0 auto;
+  border-bottom: 1px solid #ccc;
+  padding: 1rem;
+  justify-content: space-between;
+}
+.details {
+  text-align: left;
+}
+
+.details h4 {
+  font-size: 1.2em;
+  margin-bottom: 1em;
+}
+.difficulty {
+  text-align: center;
+  margin-bottom: 1em;
+}
+
+.actions {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.actions i {
+  margin-bottom: 0.5em;
+  font-size: 1.2em;
+  cursor: pointer;
+  background-color: #282c34;
+  color: #fff;
+  padding: 0.4em;
+  transition: 0.5s;
+}
+.actions i:hover {
+  color: #61dafb;
+}
